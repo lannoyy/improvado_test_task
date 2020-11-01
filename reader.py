@@ -1,14 +1,15 @@
 import json
 import sys
 import argparse
-import xml.etree.ElementTree as ET
 
-def createParser ():
+
+def createParser():
     parser = argparse.ArgumentParser()
-    parser.add_argument ('--lvl', nargs=1)
-    parser.add_argument ('-i', '--input', nargs='+')
-    parser.add_argument ('--output', nargs=1)
+    parser.add_argument('--lvl', nargs=1)
+    parser.add_argument('-i', '--input', nargs='+')
+    parser.add_argument('--output', nargs=1)
     return parser
+
 
 def printIntoFile(header, output, file_name):
     with open(file_name, 'w') as output_file:
@@ -18,6 +19,7 @@ def printIntoFile(header, output, file_name):
             output_file.write("\t".join(map(str, row)) + "\n")
         output_file.write("\t".join(map(str, output[-1])))
     print("Ready")
+
 
 def createCsvReader(file_name):
     with open(file_name) as csv_file:
@@ -35,16 +37,18 @@ def createCsvReader(file_name):
             if len(row.split(",")) != len(header):
                 print(f"Bad row {row}")
                 del data[index - count]
-                count += 1  
+                count += 1
         nums = [[0 for j in range(count_num)] for i in range(len(data))]
         keys = [[0 for j in range(count_keys)] for i in range(len(data))]
         for index, element in enumerate(data):
             count = 0
             for key in header:
                 if key.startswith("M"):
-                    nums[index][int(key[1:]) - 1] = int(element.split(",")[count])
+                    nums[index][int(key[1:]) - 1] \
+                        = int(element.split(",")[count])
                 elif key.startswith("D"):
-                    keys[index][int(key[1:]) - 1] = element.split(",")[count]
+                    keys[index][int(key[1:]) - 1] \
+                        = element.split(",")[count]
                 count += 1
         return header, nums, keys
 
@@ -91,7 +95,7 @@ def standartisation(*args):
     max_key = len(reader.keys[0])
     for reader in args:
         if len(reader.nums[0]) != max_num:
-            difference = max_num - len(reader.nums[0]) 
+            difference = max_num - len(reader.nums[0])
             for row in reader.nums:
                 row += [0 for i in range(difference)]
     return max_num, max_key
@@ -111,12 +115,14 @@ def uniteData(level, max_key, max_num, *args):
             data["header"].append(f"MS{i + 1}")
     return data
 
+
 def deleteRows(need_to_delete, data):
     count = 0
     for num in need_to_delete:
         del data["nums"][num-count]
         del data["keys"][num-count]
-        count += 1 
+        count += 1
+
 
 def calculateAdvanced(data):
     need_to_delete = [0]
@@ -138,6 +144,7 @@ def calculateAdvanced(data):
         if not data["nums"]:
             break
     return sorted(output)
+
 
 def calculateBasic(data):
     need_to_delete = [0]
@@ -163,14 +170,17 @@ def main(level, input_files, output_file):
         files_array.append(Reader(file))
     max_num, max_key = standartisation(*files_array)
     data = uniteData(level, max_key, max_num, *files_array)
-    if level == 'advanced': 
+    if level == 'advanced':
         output = calculateAdvanced(data)
     elif level == 'basic':
         output = calculateBasic(data)
+    else:
+        print("Bad arguments")
+        quit()
     printIntoFile(data["header"], output, output_file)
+
 
 if __name__ == "__main__":
     parser = createParser()
     console = parser.parse_args(sys.argv[1:])
     main(console.lvl[0], console.input, console.output[0])
-    
