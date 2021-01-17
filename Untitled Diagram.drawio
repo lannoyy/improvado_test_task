@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2021-01-17T07:51:40.555Z" agent="5.0 (X11)" version="13.8.8" etag="6Gn11xrKOeB-lnNR6I7D" type="github"><diagram id="TSrkkSY_yCGDd8fRIvP_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-17T08:02:35.597Z" agent="5.0 (X11)" etag="KcHEIh8dOGYR9KWwlni0" version="13.8.8" type="github">
+  <diagram id="TSrkkSY_yCGDd8fRIvP_" name="Page-1">
+    <mxGraphModel dx="1346" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-1" target="2HKVEBOuw--mAJV1t6P0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-1" value="&lt;div&gt;Клиент решает какой автомобиль ему нужен основываясь на различных факторах&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-2" target="2HKVEBOuw--mAJV1t6P0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-2" value="&lt;div&gt;Таксопарк предлагает варианты автомобилей с различныйми вариантами&lt;/div&gt;&lt;div&gt;аренды&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-3" target="2HKVEBOuw--mAJV1t6P0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-3" target="2HKVEBOuw--mAJV1t6P0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-3" value="&lt;div&gt;Клиент выбрал подходящий себе автомобиль и воспользовался услугой таксопарка&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-4" target="2HKVEBOuw--mAJV1t6P0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-4" value="&lt;div&gt;Под различыми вариантами автомобилей подразумеваются разные классы и модели автомобилей а также набор опций, к примеру наличие детского кресла&lt;/div&gt;&lt;div&gt;&lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-5" target="2HKVEBOuw--mAJV1t6P0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-5" value="&lt;div&gt;Под различными вариантами аренды подразумеваются условия оплаты аренды, чаще всего это либо фиксированная оплата за смену, либо процент от заказа&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-10" target="2HKVEBOuw--mAJV1t6P0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-10" value="&lt;div&gt;Клиента не устроил автомобиль или условия аренды&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-11" target="2HKVEBOuw--mAJV1t6P0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-11" value="Клиент решает не менять таксопарк" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-16" value="&lt;div&gt;Клиент решает поменять таксопарк, и перестает пользоваться услугами текущего таксопарка&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2HKVEBOuw--mAJV1t6P0-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-17" value="&lt;div&gt;Клиенту все понравилось&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2HKVEBOuw--mAJV1t6P0-20" value="Клиент продолжает пользоваться услугами таксопарка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
